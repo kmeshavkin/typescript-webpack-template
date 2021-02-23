@@ -5,6 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+  cache: false,
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
