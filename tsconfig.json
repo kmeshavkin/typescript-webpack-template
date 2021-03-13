@@ -1,9 +1,13 @@
 {
-  "outDir": "./dist/",
-  "noImplicitAny": true,
-  "strict": true,
-  "module": "commonjs",
-  "target": "es5",
-  "lib": ["es2020", "DOM"],
-  "esModuleInterop": true
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "strict": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2020", "DOM"],
+  }
 }

@@ -19,6 +19,9 @@
     "no-plusplus": "off",
     "object-curly-newline": "off",
     "prettier/prettier": "error",
+    "operator-linebreak": "off",
+    "import/prefer-default-export": "off",
+    "no-restricted-syntax": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
